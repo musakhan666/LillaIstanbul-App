@@ -30,8 +30,9 @@ import com.google.firebase.storage.FirebaseStorage
 @Composable
 fun MealFormScreen() {
 
-    val mealNames = remember { mutableStateListOf("", "", "", "", "", "") }
-    val imageUris = remember { mutableStateListOf<Uri?>(null, null, null, null, null, null) }
+    val mealNames = remember { mutableStateListOf("", "", "", "", "", "", "", "") }
+    val imageUris =
+        remember { mutableStateListOf<Uri?>(null, null, null, null, null, null, null, null) }
     var price by remember { mutableStateOf("") }
     var isLoading by remember { mutableStateOf(false) }
     var selectedRow by remember { mutableStateOf<Int?>(null) }

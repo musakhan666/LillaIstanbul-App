@@ -54,14 +54,15 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.compose.coil)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(platform(libs.firebase.bom)) // Firebase BOM
     implementation(libs.firebase.firestore.ktx) // Firebase Firestore KTX
     implementation(libs.firebase.storage.ktx)   // Firebase Storage KTX
-    implementation("io.coil-kt:coil-compose:2.2.2")  // Make sure to use the latest version
 
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
