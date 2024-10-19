@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969114215742",
+    "project_id": "lillaistanbuld",
+    "storage_bucket": "lillaistanbuld.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969114215742:android:5cfe83d7ea87506898786f",
+        "android_client_info": {
+          "package_name": "com.company.restuarantapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmAyEzwbcI2r4fwY_X8V44njLMivc3LeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969114215742:android:90c975b8df6b4d7198786f",
+        "android_client_info": {
+          "package_name": "se.muratkan.lillaistanbul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmAyEzwbcI2r4fwY_X8V44njLMivc3LeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
